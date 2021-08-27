@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/team1"
+            style="@style/TeamText"
+            android:text="@string/team_1" />
+
+        <TextView
+            android:id="@+id/score_1"
+            style="@style/ScoreText"
+            android:layout_centerInParent="true"
+            android:text="@string/initial_count" />
+
+        <ImageButton
+            android:id="@+id/decreaseTeam1"
+            style="@style/MinusButtons"
+            android:onClick="decreaseScore"
+            tools:ignore="UsingOnClickInXml"
+            android:contentDescription="@string/minus_button_description" />
+
+        <ImageButton
+            android:id="@+id/increaseTeam1"
+            style="@style/PlusButtons"
+            android:onClick="increaseScore"
+            tools:ignore="UsingOnClickInXml"
+            android:contentDescription="@string/plus_button_description"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/team2"
+            style="@style/TeamText"
+            android:text="@string/team_2" />
+
+        <TextView
+            android:id="@+id/score_2"
+            style="@style/ScoreText"
+            android:text="@string/initial_count" />
+
+        <ImageButton
+            android:id="@+id/decreaseTeam2"
+            style="@style/MinusButtons"
+            android:onClick="decreaseScore"
+            tools:ignore="UsingOnClickInXml"
+            android:contentDescription="@string/minus_button_description"/>
+
+        <ImageButton
+            android:id="@+id/increaseTeam2"
+            style="@style/PlusButtons"
+            android:onClick="increaseScore"
+            tools:ignore="UsingOnClickInXml"
+            android:contentDescription="@string/plus_button_description"/>
+    </RelativeLayout>
+</LinearLayout>

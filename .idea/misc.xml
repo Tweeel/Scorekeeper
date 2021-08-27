@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/houssem/AndroidStudioProjects/Scorekeeper/app/src/main/res/drawable/button_background.xml" value="0.2890625" />
+        <entry key="..\:/Users/houssem/AndroidStudioProjects/Scorekeeper/app/src/main/res/drawable/ic_minus.xml" value="0.2203125" />
+        <entry key="..\:/Users/houssem/AndroidStudioProjects/Scorekeeper/app/src/main/res/drawable/ic_plus.xml" value="0.2203125" />
+        <entry key="..\:/Users/houssem/AndroidStudioProjects/Scorekeeper/app/src/main/res/layout-land/activity_main.xml" value="0.1728395061728395" />
         <entry key="..\:/Users/houssem/AndroidStudioProjects/Scorekeeper/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/houssem/AndroidStudioProjects/Scorekeeper/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
